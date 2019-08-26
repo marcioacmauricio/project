@@ -1,0 +1,28 @@
+from db.fields import *
+Fields = {
+	"CheckedOut": CheckedOut(),
+	"CheckedOutTime": CheckedOutTime(),
+	"CloneFrom": CloneFrom(),
+	"CloneTime": CloneTime(),
+	"CreatedBy": CreatedBy(),
+	"Date": Date(),
+	"DateTime": DateTime(),
+	"Editor": Editor(),
+	"ForeignKey": ForeignKey(),
+	"Input": Input(),
+	"KeyDimension": KeyDimension(),
+	"KeyIncremente": KeyIncremente(),
+	"ModifiedBy": ModifiedBy(),
+	"NickName": NickName(),
+	"Ordering": Ordering(),
+	"SelectList": SelectList(),
+	"State": State(),
+	"Textarea": Textarea(),
+	"Time": Time(),
+	"Money": Money(),
+	"Password": Password(),
+	"Attributes": Attributes(),
+	"Boolean": Boolean(),
+	"Image": Image(),
+	"Numeric": Numeric()
+}
